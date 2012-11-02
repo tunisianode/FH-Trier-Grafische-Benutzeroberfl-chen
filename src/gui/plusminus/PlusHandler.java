@@ -3,6 +3,7 @@ package gui.plusminus;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 class PlusHandler implements ActionListener
@@ -14,7 +15,8 @@ class PlusHandler implements ActionListener
     {
         this.pm = pm;
 
-        b = new JButton("+");
+        ImageIcon img = new ImageIcon("img/icon.png");
+        b = new JButton("+", img);
         b.setName("plus");
         b.addActionListener(this);
         b.setToolTipText("plus");
