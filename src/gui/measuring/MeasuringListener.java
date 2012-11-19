@@ -4,5 +4,5 @@ public interface MeasuringListener
 {
     public void valueMeasured(double measureValue, int name);
 
-    public void addMeasuringListener();
+    // public void addMeasuringListener();
 }

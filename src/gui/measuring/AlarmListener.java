@@ -20,12 +20,4 @@ public class AlarmListener implements MeasuringListener
                     + this.min + ", " + this.max + "] liegt.");
         }
     }
-
-    @Override
-    public void addMeasuringListener()
-    {
-        // TODO Auto-generated method stub
-
-    }
-
 }
