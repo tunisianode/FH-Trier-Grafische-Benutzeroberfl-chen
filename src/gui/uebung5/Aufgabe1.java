@@ -47,13 +47,11 @@ public class Aufgabe1 extends JFrame implements ActionListener
         setLocationByPlatform(true);
         setVisible(true);
     }
-/*
-    public static void main(String[] args)
-    {
-        Aufgabe1 aufg1 = new Aufgabe1();
-        System.out.println("sd");
-    }
-*/
+
+    /*
+     * public static void main(String[] args) { Aufgabe1 aufg1 = new Aufgabe1();
+     * System.out.println("sd"); }
+     */
     @Override
     public void actionPerformed(ActionEvent e)
     {
