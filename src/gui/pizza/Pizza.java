@@ -113,7 +113,8 @@ public class Pizza extends JFrame implements ActionListener
         double[] pricesIngredenties =
         { 0.50d, 1.0d, 1.0d, 1.0d };
 
-        Pizza pi = new Pizza("Pizza", sizes, prices, ingredients, pricesIngredenties);
+        // Pizza pi = new Pizza("Pizza", sizes, prices, ingredients,
+        // pricesIngredenties);
     }
 
     public String[] addIngredent(String name, String[] ingredients)
