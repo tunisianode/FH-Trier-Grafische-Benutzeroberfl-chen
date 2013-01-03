@@ -57,6 +57,8 @@ public class TextAreaDemo extends JFrame
         panelText.add(left);
         panelText.add(right);
 
+        // Fuer den unteren Teil besser BorderLayout verwenden.
+
         this.add(panelText);
         this.add(button);
         this.add(log);

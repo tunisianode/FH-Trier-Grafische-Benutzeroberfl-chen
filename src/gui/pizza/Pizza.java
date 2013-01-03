@@ -104,15 +104,12 @@ public class Pizza extends JFrame implements ActionListener
 
     public static void main(String[] args)
     {
-        String[] sizes =
-        { "klein", "normal", "gross" };
-        double[] prices =
-        { 1.0d, 2.0d, 3.0d };
-        String[] ingredients =
-        { "Artischocken", "Paprika", "Ei", "Spinat" };
-        double[] pricesIngredenties =
-        { 0.50d, 1.0d, 1.0d, 1.0d };
-
+        /*
+         * String[] sizes = { "klein", "normal", "gross" }; double[] prices = {
+         * 1.0d, 2.0d, 3.0d }; String[] ingredients = { "Artischocken",
+         * "Paprika", "Ei", "Spinat" }; double[] pricesIngredenties = { 0.50d,
+         * 1.0d, 1.0d, 1.0d };
+         */
         // Pizza pi = new Pizza("Pizza", sizes, prices, ingredients,
         // pricesIngredenties);
     }
